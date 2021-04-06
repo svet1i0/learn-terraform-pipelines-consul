@@ -3,7 +3,7 @@ terraform {
     organization = "shared_devops_sandbox"
 
     workspaces {
-      name = "terraform-pipes-k8s-consul-gke"
+      name = "terraform-pipelines-consul-gke"
     }
   }
   required_providers {
