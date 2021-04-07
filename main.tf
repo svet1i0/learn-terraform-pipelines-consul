@@ -37,7 +37,7 @@ data "terraform_remote_state" "cluster" {
 #provider "google" {
  # project = data.terraform_remote_state.cluster.outputs.project_id
  # region  = data.terraform_remote_state.cluster.outputs.region
-}
+#}
 
 data "google_client_config" "default" {}
 
